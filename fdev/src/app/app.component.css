@@ -1,0 +1,33 @@
+section {
+  display: block;
+}
+
+.card {
+  background-color: blue;
+  display: flex;
+}
+
+.card-body {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: aqua;
+}
+
+.user-list {
+  background-color: pink;
+  border: 1px solid black;
+  justify-content: space-between;
+}
+
+.order-list {
+  background-color: blueviolet;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.order-single {
+  border: 1px solid red;
+  align-items: center;
+  justify-content: space-between;
+}
