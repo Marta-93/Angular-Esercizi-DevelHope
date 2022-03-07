@@ -1,17 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <title>Esercizio Angular</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" />
     <link rel="stylesheet" href="./app.component.css" />
-</head>
-<body>
-    <!--Main Navigation-->
+  </head>
+
+  <body>
     <header>
-      <!-- Navbar -->
       <nav class="navbar navbar-expand-lg navbar-light bg-white">
         <div class="container-fluid">
           <a class="navbar-brand" target="_blank" href="#">Fdev</a>
@@ -33,55 +32,16 @@
       </nav>
     </header>
 
-    <main class="my-5">
-      <div class="container">
+    <main class="my-5 app-container">
 
-        <section class="text-center">
-          <h4 class="mb-5"><strong>Welcome</strong></h4>
-  
-          <div class="row">
-            <div class="col-lg-6 mb-4">
-              <div class="card">
-                <div class="card-body">
-                  
-                  <div class="card col-6 user-list">
-                    <div class="card user-single">1 single</div>
-                    <div class="card user-single">2 single</div>
-                    <div class="card user-single">3 single</div>
-                  </div>
+      <section class="text-center">
+        <h4 class="mb-5">Welcome</h4>
+      </section>
 
-                  <div class="card col-6 user-detail">
-                    <div>User Detail</div>
-                  </div>
-
-                </div>
-              </div>
-            </div>
-  
-            <div class="col-lg-6 mb-4">
-              <div class="card">
-                <div class="card-body">
-                  <div class="container card order-list">
-                    <p>Order List</p>
-                    <div class="container-fluid row order-single">
-                      <div class="card col-sm">User single</div>
-                      <div class="card col-sm">Order detail</div>
-                    </div>
-                    <div class="container-fluid row order-single">
-                      <div class="card col-sm">User single</div>
-                      <div class="card col-sm">Order detail</div>
-                    </div>
-                    <div class="container-fluid row order-single">
-                      <div class="card col-sm">User single</div>
-                      <div class="card col-sm">Order detail</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+      <div class="containers">
+        <fdev-user-container></fdev-user-container>
+        <fdev-order-container></fdev-order-container>
       </div>
     </main>
-</body>
+  </body>
 </html>

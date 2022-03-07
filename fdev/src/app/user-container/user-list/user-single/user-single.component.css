@@ -1,0 +1,10 @@
+.user-sinlge {
+  display: grid;
+  width: 250px;
+  height: 50px;
+  margin:10px;
+  align-items:  center;
+  justify-items: center;
+  background-color: rgba(131, 100, 160, 0.205);
+  border: 1px solid rgb(119, 45, 119);
+}
