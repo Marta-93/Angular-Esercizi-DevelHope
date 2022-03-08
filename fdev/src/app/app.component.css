@@ -3,8 +3,9 @@ section {
 }
 
 main {
+  display: grid;
+  overflow: hidden;
   background-color: rgb(233, 191, 141);
-  margin-bottom: -30px;
   padding: 20px;
 }
 

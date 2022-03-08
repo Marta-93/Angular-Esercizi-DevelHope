@@ -1,15 +1,6 @@
 .user-container{
   display: inline-flex;
-  justify-content: space-between;
-  padding-top: 30px;
-  padding-bottom: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
+  flex-direction: row;
+  padding: 30px;
   background-color: rgb(180, 214, 88);
-  text-align: center;
-}
-
-h5 {
-  display: unset;
-  text-align: center;
 }
