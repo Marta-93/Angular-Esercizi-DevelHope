@@ -10,7 +10,6 @@ main {
 
 .containers {
   display: inline-flex;
-  flex-direction: row;
   align-items: center;
   justify-content: space-between;
   padding: 25px;

@@ -1,0 +1,9 @@
+.order-single {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: blueviolet;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
