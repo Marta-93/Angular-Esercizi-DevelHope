@@ -4,6 +4,7 @@ section {
 
 main {
   display: grid;
+  align-content: center;
   /*overflow: hidden;*/
   background-color: rgb(233, 191, 141);
   padding: 20px;

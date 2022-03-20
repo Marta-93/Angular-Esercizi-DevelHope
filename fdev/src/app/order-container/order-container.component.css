@@ -2,4 +2,6 @@
   display: flex;
   background-color: green;
   padding: 30px;
+  width: 600px;
+  height: 550px;
 }

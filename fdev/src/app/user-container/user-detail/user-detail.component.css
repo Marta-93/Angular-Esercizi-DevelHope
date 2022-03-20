@@ -1,16 +1,16 @@
 .user-detail {
   display: flex;
-  justify-content: center;
   align-content: center;
-  height: 380px;
+  height: 480px;
   width: 230px;
   background-color: rgb(189, 151, 224);
   margin-left: 10px;
 }
 
 .gatto {
-  width: 40px;
-  height: 30px;
+  width: 100px;
+  height: 80px;
+  padding-bottom: 2px;
 }
 
 .card {
@@ -20,6 +20,13 @@
 
 .card-detail {
   background: transparent;
-  width: 15px;
-  height: 15px;
+}
+
+p {
+  font-size: 10px;
+  line-height: 6px;
+}
+
+h6 {
+  font-size: 12px;
 }
