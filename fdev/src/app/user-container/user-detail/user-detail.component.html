@@ -1,4 +1,40 @@
-<div class="card user-detail">
+<div class="container card user-detail">
   <h5 class="text-center">User Detail</h5>
-  <div class="card-body"></div>
+  <div class="card-body">
+    <div class="container-user" *ngIf="users">
+      <div class="card-wrapper ">
+        <div class="card border-0 card-detail">
+          <p>id: {{users[0].id}}</p>
+          <p>Name: {{users[0].name}} </p>
+          <p>Surname: {{users[0].surname}}</p>
+          <p>Age: {{users[0].age}}</p>
+          <p>Date of birth: {{ users[0].dateOfBirth | date:'dd/MMM/yyyy' }}</p>
+          </div>
+      </div>
+      <div class="card-wrapper">
+        <div class="card border-0 card-detail">
+          <h6>Address:</h6>
+          <p>City: {{users[0].address.city}}</p>
+          <p>Street: {{users[0].address.street}}</p>
+          <p>PostalCode:{{users[0].address.postalCode}}</p>
+        </div>
+      </div>
+      <div class="card-wrapper">
+        <div class="card border-0 card-detail">
+          <p>Role: {{users[0].role}}</p>
+      <p>username: {{users[0].username}}</p>
+      <img src="../../../assets/gatto.jpg" alt="gatto" class="gatto">
+      <p>Gender: {{users[0].gender}}</p>
+        </div>
+      </div>
+      <div class="card-wrapper">
+        <div class="card border-0 card-detail">
+          <h6>Company :{{users[0].companies[0].name}}</h6>
+          <p>Description:{{users[0].companies[0].description}}</p>
+          <h6>Company :{{users[0].companies[1].name}}</h6>
+          <p>Description:{{users[0].companies[1].description}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
